@@ -1,0 +1,334 @@
+@font-face {
+  font-family: "Old London";
+  src: url("../assets/Olondon_.otf");
+}
+
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.title {
+  font-size: 180px;
+  color: #F2D959;
+  text-align: center;
+  margin: 30px;
+  font-family: 'Old London';
+  src: url(assets/old_london);
+}
+
+.brown-rect {
+  height: 225px;
+  width: 1535px;
+  background-color: #3A312B;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -50;
+}
+
+.orange-rect {
+  height: 40px;
+  width: 1535px;
+  background-color: #A94E38;
+  position: absolute;
+  top: 220px;
+  left: 0px;
+  z-index: -40;
+}
+
+.ambassadorlogo {
+  font-size: 60px;
+  color: #A94E38;
+  font-family: 'Old London';
+  src: url(assets/old_london);
+  position: absolute;
+  top: -30px;
+  left: 20px;
+}
+
+.navtext {
+  list-style-type: none;
+  font-size: 45px;
+  background-color: #3A312B;
+  padding: 10px;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  font-family: 'Corbel', sans-serif;
+  position: sticky;
+  z-index: 10;
+}
+
+li {
+  display: inline;
+  padding: 30px;
+}
+
+a {
+  color: #F2D959;
+}
+
+a:hover {
+  color: #A94E38;
+}
+
+/* .navrect {
+  height: 120px;
+  width: 950px;
+  background-color: #20150F;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -30;
+} */
+
+.mininav {
+  height: 50px;
+  width: 940px;
+  background-color: #3A312B;
+  outline-color: #20150F;
+  outline: solid;
+  outline-width: 5px;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -30;
+}
+
+.mininavtext {
+  font-size: 35px;
+  color: #A94E38;
+  position: absolute;
+  left: 270px;
+  top: 180px;
+  font-family: 'Corbel', sans-serif;
+}
+
+.subtitle1 {
+  font-size: 110px;
+  color: #A94E38;
+  position: relative;
+  top: 0px;
+  text-align: center;
+  font-family: 'Old London';
+  src: url(assets/old_london);
+}
+
+.text1 {
+  color: #F2D959;
+  font-size: 25px;
+  position: relative;
+  text-align: center;
+  top: -80px;
+  font-family: 'Corbel', sans-serif;
+}
+
+
+.returnhome {
+  font-size: 30px;
+  color: #A94E38;
+  position: absolute;
+  top: 20150px;
+  left: 650px;
+  font-family: 'Corbel', sans-serif;
+}
+
+.brownbottomrect {
+  height: 70px;
+  width: 1535px;
+  left: 0px;
+  background-color: #3A312B;
+  position: absolute;
+  top: 20155px;
+  z-index: -50;
+}
+
+.orangebottomrect {
+  height: 30px;
+  width: 1535px;
+  left: 0px;
+  background-color: #A94E38;
+  position: absolute;
+  top: 20225px;
+  z-index: -50;
+}
+
+.pizzagrid {
+  display: grid;
+  grid-template-columns: 400px 2fr 1fr;
+  grid-template-rows: 50px 50px 50px;
+  grid-gap: 150px 15px;
+  padding-left: 100px;
+}
+
+.food {
+  font-family: 'Corbel', sans-serif;
+  font-size: 30px;
+  color: #F2D959;
+}
+
+.food2 {
+  font-family: 'Corbel', sans-serif;
+  font-size: 30px;
+  color: #A94E38;
+}
+
+.description {
+  font-family: 'Corbel', sans-serif;
+  font-size: 20px;
+  color: #F2D959;
+}
+
+.description2 {
+  font-family: 'Corbel', sans-serif;
+  font-size: 20px;
+  color: #A94E38;
+}
+
+.price {
+  font-family: 'Corbel', sans-serif;
+  font-size: 30px;
+  color: #F2D959;
+}
+
+.price2 {
+  font-family: 'Corbel', sans-serif;
+  font-size: 30px;
+  color: #A94E38;
+}
+
+.subtitle2 {
+  font-size: 110px;
+  color: #F2D959;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  font-family: 'Old London';
+  src: url(assets/old_london);
+  background-color: #3A312B;
+}
+
+.pastagrid {
+  display: grid;
+  grid-template-columns: 400px 2fr 1fr;
+  grid-template-rows: 50px 50px 50px;
+  grid-gap: 150px 15px;
+  background-color: #3A312B;
+  padding-left: 100px;
+}
+
+.pastaorange {
+  height: 90px;
+  width: 1505px;
+  left: 8px;
+  background-color: #A94E38;
+  position: absolute;
+  top: 3155px;
+  z-index: -50;
+}
+
+.subtitle3 {
+  font-size: 110px;
+  color: #A94E38;
+  position: relative;
+  top: -50px;
+  text-align: center;
+  font-family: 'Old London';
+  src: url(assets/old_london);
+}
+
+.saladgrid {
+  display: grid;
+  grid-template-columns: 400px 2fr 1fr;
+  grid-template-rows: 50px 50px 50px;
+  grid-gap: 150px 15px;
+  padding-left: 100px;
+}
+
+.subtitle4 {
+  font-size: 110px;
+  color: #F2D959;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  font-family: 'Old London';
+  src: url(assets/old_london);
+  background-color: #3A312B;
+}
+
+.sandwichesgrid {
+  display: grid;
+  grid-template-columns: 400px 2fr 1fr;
+  grid-template-rows: 50px 50px 50px;
+  grid-gap: 150px 15px;
+  background-color: #3A312B;
+  padding-left: 100px;
+}
+
+.sandwichesorange {
+  height: 90px;
+  width: 1505px;
+  left: 8px;
+  background-color: #A94E38;
+  position: absolute;
+  top: 6840px;
+  z-index: -50;
+}
+
+.subtitle5 {
+  font-size: 110px;
+  color: #A94E38;
+  position: relative;
+  top: -50px;
+  text-align: center;
+  font-family: 'Old London';
+  src: url(assets/old_london);
+}
+
+.cocktailgrid {
+  display: grid;
+  grid-template-columns: 400px 2fr 1fr;
+  grid-template-rows: 50px 50px 50px;
+  grid-gap: 150px 15px;
+  padding-left: 100px;
+}
+
+.subtitle6 {
+  font-size: 110px;
+  color: #F2D959;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  font-family: 'Old London';
+  src: url(assets/old_london);
+  background-color: #3A312B;
+}
+
+.appsgrid {
+  display: grid;
+  grid-template-columns: 400px 2fr 1fr;
+  grid-template-rows: 50px 50px 50px;
+  grid-gap: 150px 15px;
+  background-color: #3A312B;
+  padding-left: 100px;
+}
+
+.appsorange {
+  height: 90px;
+  width: 1505px;
+  left: 8px;
+  background-color: #A94E38;
+  position: absolute;
+  top: 18255px;
+  z-index: -50;
+}

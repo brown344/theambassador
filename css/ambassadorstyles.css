@@ -1,0 +1,242 @@
+@font-face {
+  font-family: "Old London";
+  src: url("../assets/Olondon_.otf");
+}
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.title {
+  font-size: 180px;
+  color: #F2D959;
+  text-align: center;
+  margin: 30px;
+  font-family: 'Old London';
+  src: url(assets/old_london);
+}
+
+.brown-rect {
+  height: 225px;
+  width: 1535px;
+  background-color: #3A312B;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -50;
+}
+
+.orange-rect {
+  height: 40px;
+  width: 1535px;
+  background-color: #A94E38;
+  position: absolute;
+  top: 220px;
+  left: 0px;
+  z-index: -40;
+}
+
+.navtext {
+  list-style-type: none;
+  font-size: 45px;
+  background-color: #3A312B;
+  padding: 10px;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  font-family: 'Corbel', sans-serif;
+  position: sticky;
+  z-index: 10;
+}
+
+li {
+  display: inline;
+  padding: 30px;
+}
+
+a {
+  color: #F2D959;
+}
+
+a:hover {
+  color: #A94E38;
+}
+
+/* .navrect {
+  height: 120px;
+  width: 950px;
+  background-color: #20150F;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -30;
+} */
+
+.mininav {
+  height: 50px;
+  width: 940px;
+  background-color: #3A312B;
+  outline-color: #20150F;
+  outline: solid;
+  outline-width: 5px;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -30;
+}
+
+.mininavtext {
+  font-size: 35px;
+  color: #A94E38;
+  position: absolute;
+  left: 270px;
+  top: 180px;
+  font-family: 'Corbel', sans-serif;
+}
+
+.subtitle {
+  font-size: 110px;
+  color: #A94E38;
+  position: relative;
+  top: -50px;
+  text-align: center;
+  font-family: 'Old London';
+  src: url(assets/old_london);
+}
+
+.text1 {
+  color: #A94E38;
+  font-size: 25px;
+  position: relative;
+  top: -80px;
+  left: 230px;
+  font-family: 'Corbel', sans-serif;
+}
+
+.text2 {
+  color: #A94E38;
+  font-size: 25px;
+  position: relative;
+  top: -652px;
+  left: 780px;
+  font-family: 'Corbel', sans-serif;
+}
+
+.subsubtitle {
+  font-size: 50px;
+  color: #3A312B;
+  position: relative;
+  top: -400px;
+  text-align: center;
+  font-family: 'Corbel', sans-serif;
+}
+
+.poem {
+  font-size: 20px;
+  color: #3A312B;
+  position: relative;
+  top: -430px;
+  text-align: center;
+  font-family: 'Corbel', sans-serif;
+  line-height: 2em;
+}
+
+.mural {
+  position: absolute;
+  top: 1200px;
+  left: 0px;
+  z-index: -60;
+}
+
+.overlayrect {
+  height: 900px;
+  width: 1535px;
+  background-color: #F2D959;
+  z-index: -50;
+  position: absolute;
+  top: 1200px;
+  left: 0px;
+  opacity: 60%;
+}
+
+.fade1 {
+  height: 20px;
+  width: 1535px;
+  background-color: white;
+  z-index: -50;
+  position: absolute;
+  top: 1200px;
+  left: 0px;
+  opacity: 70%;
+}
+
+.fade2 {
+  height: 20px;
+  width: 1535px;
+  background-color: white;
+  z-index: -50;
+  position: absolute;
+  top: 1220px;
+  left: 0px;
+  opacity: 50%;
+}
+
+.fade3 {
+  height: 20px;
+  width: 1535px;
+  background-color: white;
+  z-index: -50;
+  position: absolute;
+  top: 1240px;
+  left: 0px;
+  opacity: 30%;
+}
+
+.fade4 {
+  height: 20px;
+  width: 1535px;
+  background-color: white;
+  z-index: -50;
+  position: absolute;
+  top: 1260px;
+  left: 0px;
+  opacity: 20%;
+}
+
+.returnhome {
+  font-size: 30px;
+  color: #A94E38;
+  position: relative;
+  top: -420px;
+  text-align: center;
+  font-family: 'Corbel', sans-serif;
+}
+
+.brownbottomrect {
+  height: 70px;
+  width: 1535px;
+  left: 0px;
+  background-color: #3A312B;
+  position: absolute;
+  top: 2000px;
+  z-index: -50;
+}
+
+.orangebottomrect {
+  height: 30px;
+  width: 1535px;
+  left: 0px;
+  background-color: #A94E38;
+  position: absolute;
+  top: 2070px;
+  z-index: -50;
+}

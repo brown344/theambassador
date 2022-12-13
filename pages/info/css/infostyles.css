@@ -1,0 +1,221 @@
+@font-face {
+  font-family: "Old London";
+  src: url("../assets/Olondon_.otf");
+}
+
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.title {
+  font-size: 180px;
+  color: #F2D959;
+  text-align: center;
+  margin: 30px;
+  font-family: 'Old London';
+  src: url(assets/old_london);
+}
+
+.brown-rect {
+  height: 225px;
+  width: 1535px;
+  background-color: #3A312B;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -50;
+}
+
+.orange-rect {
+  height: 40px;
+  width: 1535px;
+  background-color: #A94E38;
+  position: absolute;
+  top: 220px;
+  left: 0px;
+  z-index: -40;
+}
+
+.ambassadorlogo {
+  font-size: 60px;
+  color: #A94E38;
+  font-family: 'Old London';
+  src: url(assets/old_london);
+  position: absolute;
+  top: -30px;
+  left: 20px;
+}
+
+.navtext {
+  list-style-type: none;
+  font-size: 45px;
+  background-color: #3A312B;
+  padding: 10px;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  font-family: 'Corbel', sans-serif;
+  position: sticky;
+  z-index: 10;
+}
+
+li {
+  display: inline;
+  padding: 30px;
+}
+
+a {
+  color: #F2D959;
+}
+
+a:hover {
+  color: #A94E38;
+}
+
+/* .navrect {
+  height: 120px;
+  width: 950px;
+  background-color: #20150F;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -30;
+} */
+
+.mininav {
+  height: 50px;
+  width: 940px;
+  background-color: #3A312B;
+  outline-color: #20150F;
+  outline: solid;
+  outline-width: 5px;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -30;
+}
+
+.mininavtext {
+  font-size: 35px;
+  color: #A94E38;
+  position: absolute;
+  left: 270px;
+  top: 180px;
+  font-family: 'Corbel', sans-serif;
+}
+
+.subtitle1 {
+  font-size: 80px;
+  color: #F2D959;
+  position: absolute;
+  top: 385px;
+  left: 50px;
+  font-family: 'Corbel', sans-serif;
+}
+
+.subtitle2 {
+  font-size: 80px;
+  color: #F2D959;
+  position: absolute;
+  top: 385px;
+  left: 1105px;
+  font-family: 'Corbel', sans-serif;
+}
+
+
+.monsat {
+  font-size: 50px;
+  color: #F2D959;
+  position: absolute;
+  top: 505px;
+  left: 50px;
+  font-family: 'Corbel', sans-serif;
+}
+
+.monhours {
+  font-size: 45px;
+  color: #F2D959;
+  position: absolute;
+  top: 565px;
+  left: 50px;
+  font-family: 'Corbel', sans-serif;
+}
+
+.sun {
+  font-size: 50px;
+  color: #F2D959;
+  position: absolute;
+  top: 625px;
+  left: 50px;
+  font-family: 'Corbel', sans-serif;
+}
+
+.sunhours {
+  font-size: 45px;
+  color: #F2D959;
+  position: absolute;
+  top: 685px;
+  left: 50px;
+  font-family: 'Corbel', sans-serif;
+}
+
+.review1 {
+  position: absolute;
+  top: 450px;
+  left: 620px;
+  z-index: -60;
+}
+
+.review2 {
+  position: absolute;
+  top: 1250px;
+  left: 620px;
+  z-index: -60;
+}
+
+.map {
+  position: absolute;
+  top: 800px;
+  left: 50px;
+  z-index: -60;
+}
+
+
+.returnhome {
+  font-size: 30px;
+  color: #A94E38;
+  position: absolute;
+  top: 1790px;
+  left: 650px;
+  font-family: 'Corbel', sans-serif;
+}
+
+.brownbottomrect {
+  height: 70px;
+  width: 1535px;
+  left: 0px;
+  background-color: #3A312B;
+  position: absolute;
+  top: 1800px;
+  z-index: -50;
+}
+
+.orangebottomrect {
+  height: 30px;
+  width: 1535px;
+  left: 0px;
+  background-color: #A94E38;
+  position: absolute;
+  top: 1870px;
+  z-index: -50;
+}
